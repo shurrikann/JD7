@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- ImageView for the icon -->
+    <ImageView
+        android:id="@+id/tab_img"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@drawable/tab_img"/>
+    <TextView
+        android:id="@+id/tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="实时监测"
+        android:textColor="@color/spark_gray"
+        android:fontFamily="@font/ysbth"/>
+</RelativeLayout>

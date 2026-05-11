@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 放大后的图标大小 -->
+    <dimen name="tab_icon_selected_width">90dp</dimen>
+    <dimen name="tab_icon_selected_height">45dp</dimen>
+
+    <!-- 缩小后的图标大小 -->
+    <dimen name="tab_icon_unselected_width">60dp</dimen>
+    <dimen name="tab_icon_unselected_height">32dp</dimen>
+
+    <dimen name="abbreviation_text_size_max">14sp</dimen>
+
+</resources>
